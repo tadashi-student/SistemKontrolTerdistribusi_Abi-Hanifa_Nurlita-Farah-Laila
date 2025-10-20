@@ -3,7 +3,7 @@ from pathlib import Path
 
 # ============ KONFIG ============
 CSV_PATH      = r"C:\DCS\sim_out.csv"   # harus sama dengan di DWSIM IronPython
-ESP32_PORT    = "COM12"                 # ganti sesuai port ESP32
+ESP32_PORT    = "COM12"                 # ganti sesuai port ESP32 S3
 ESP32_BAUD    = 115200
 
 # --- InfluxDB konfigurasi kamu ---
