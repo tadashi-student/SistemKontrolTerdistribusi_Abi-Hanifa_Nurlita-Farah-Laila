@@ -23,7 +23,7 @@ struct Row {
 async fn main() -> Result<()> {
     dotenv().ok();
 
-    // --- Load ENV (runtime) ---
+    // --- Load ENV (runtime) ----
     let influx_url    = env::var("INFLUX_URL")?;
     let influx_org    = env::var("INFLUX_ORG")?;
     let influx_bucket = env::var("INFLUX_BUCKET")?;
